@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+.green{
+    width: 800px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    margin: 0px auto;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 18% ;
+    margin-left: 40%;
+}
+
+
+
+.flag p{
+    margin: 10px;
+  font-size: 28pt;
+  font-family: 'Allison', 'cursive';
+    text-align: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.social-site>img{
+    width: 150px;
+    position: fixed;
+    top: 43%;
+    right: -100px;
+    transition: 1s;
+    
+    
+}
+.social-site>img:hover{
+    right: -1px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.center-item{
+    text-align: center;
+    justify-content: center;
+}
+.i {
+    margin-right: 7px;
+    color: #336699;
+  
+}
+.contact-item {
+    background-color: #336699;
+    color: white;
+    width: 300px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px; 
+}
+.contact-item :hover{
+    cursor: pointer;
+    background-color:green;
+   
+}
